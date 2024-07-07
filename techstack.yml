@@ -1,0 +1,270 @@
+repo_name: seongyeon1/CLEval
+report_id: 86f364537e44ed714767886a7424a5a0
+version: 0.1
+repo_type: Public
+timestamp: '2024-07-07T05:07:17+00:00'
+requested_by: dev-strender
+provider: github
+branch: master
+detected_tools_count: 15
+tools:
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/seongyeon1/CLEval
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/seongyeon1/CLEval
+  detection_source: Repo Metadata
+- name: Python
+  description: A clear and powerful object-oriented programming language, comparable
+    to Perl, Ruby, Scheme, or Java.
+  website_url: https://www.python.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/seongyeon1/CLEval
+  detection_source: Repo Metadata
+- name: Smarty
+  description: Template engine for PHP
+  website_url: http://www.smarty.net/
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Templating Languages & Extensions
+  image_url: https://img.stackshare.io/service/3693/smarty.png
+  detection_source_url: https://github.com/seongyeon1/CLEval
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/seongyeon1/CLEval
+  detection_source: Repo Metadata
+- name: PyPI
+  description: A repository of software for the Python programming language
+  website_url: https://pypi.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Hosted Package Repository
+  image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
+  detection_source_url: https://github.com/seongyeon1/CLEval/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: daehyun-nam
+  last_updated_on: 2020-06-15 09:37:42.000000000 Z
+- name: OpenCV
+  description: Open Source Computer Vision Library
+  website_url: http://opencv.org/
+  open_source: true
+  hosted_saas: false
+  category: Assets and Media
+  sub_category: Image Processing and Management
+  image_url: https://img.stackshare.io/service/1293/opencv-logo-64x64.png
+  detection_source_url: https://github.com/seongyeon1/CLEval/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: daehyun-nam
+  last_updated_on: 2020-06-15 09:37:42.000000000 Z
+- name: Pillow
+  description: Python Imaging Library
+  website_url: https://python-pillow.github.io/
+  open_source: true
+  hosted_saas: false
+  category: Assets and Media
+  sub_category: Image Processing and Management
+  image_url: https://img.stackshare.io/service/2375/default_1f67b0ca7416a9f52beb655f90b5602d5ef74b75.jpg
+  detection_source_url: https://github.com/seongyeon1/CLEval/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: daehyun-nam
+  last_updated_on: 2020-06-15 09:37:42.000000000 Z
+- name: NumPy
+  description: Fundamental package for scientific computing with Python
+  website_url: http://www.numpy.org/
+  version: 1.17.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Data Science Tools
+  image_url: https://img.stackshare.io/service/2179/default_332f874a2edb2686f578aa6389313efcea1eec41.png
+  detection_source_url: https://github.com/seongyeon1/CLEval/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: daehyun-nam
+  last_updated_on: 2020-06-15 09:37:42.000000000 Z
+- name: bottle
+  description: Fast and simple WSGI-framework for small web-applications
+  package_url: https://pypi.org/project/bottle
+  version: 0.12.17
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19975/default_7bdb5665dee17d53e3a12b8e2b533bcdb6f55a47.png
+  detection_source_url: https://github.com/seongyeon1/CLEval/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: daehyun-nam
+  last_updated_on: 2020-06-15 09:37:42.000000000 Z
+  vulnerabilities:
+  - name: Denial of service in bottle
+    cve_id: CVE-2022-31799
+    cve_url: https://github.com/advisories/GHSA-xhp9-4947-rq78
+    detected_date: Jun 4
+    severity: critical
+    first_patched: 0.12.20
+  - name: bottle HTTP Request smuggling
+    cve_id: CVE-2020-28473
+    cve_url: https://github.com/advisories/GHSA-qhx9-7hx7-cp4r
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 0.12.19
+- name: opencv-python
+  description: Wrapper package for OpenCV python bindings
+  package_url: https://pypi.org/project/opencv-python
+  version: 3.4.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/seongyeon1/CLEval/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: daehyun-nam
+  last_updated_on: 2020-06-15 09:37:42.000000000 Z
+  vulnerabilities:
+  - name: NULL Pointer Dereference in OpenCV.
+    cve_id: CVE-2019-14493
+    cve_url: https://github.com/advisories/GHSA-3448-vrgh-85xr
+    detected_date: Oct 13
+    severity: high
+    first_patched: 4.1.1.26
+  - name: Out-of-bounds Read in OpenCV
+    cve_id: CVE-2019-14491
+    cve_url: https://github.com/advisories/GHSA-fm39-cw8h-3p63
+    detected_date: Oct 13
+    severity: high
+    first_patched: 3.4.7.28
+  - name: Out-of-bounds Read and Out-of-bounds Write in OpenCV
+    cve_id: CVE-2019-14492
+    cve_url: https://github.com/advisories/GHSA-fw99-f933-rgh8
+    detected_date: Oct 13
+    severity: high
+    first_patched: 3.4.7.28
+  - name: Out-of-bounds Write in OpenCV
+    cve_id: CVE-2019-9423
+    cve_url: https://github.com/advisories/GHSA-8849-5h85-98qw
+    detected_date: Oct 13
+    severity: high
+    first_patched:
+  - name: Out-of-bounds Write in OpenCV
+    cve_id: CVE-2019-5063
+    cve_url: https://github.com/advisories/GHSA-m6vm-8g8v-xfjh
+    detected_date: Oct 13
+    severity: high
+    first_patched:
+  - name: Out-of-bounds Write in OpenCV
+    cve_id: CVE-2019-5064
+    cve_url: https://github.com/advisories/GHSA-q799-q27x-vp7w
+    detected_date: Oct 13
+    severity: high
+    first_patched: 4.2.0.32
+  - name: Out-of-bounds Read in OpenCV
+    cve_id: CVE-2019-19624
+    cve_url: https://github.com/advisories/GHSA-jggw-2q6g-c3m6
+    detected_date: Oct 13
+    severity: moderate
+    first_patched: 4.1.0.25
+  - name: Out-of-bounds Read in OpenCV
+    cve_id: CVE-2019-16249
+    cve_url: https://github.com/advisories/GHSA-x3rm-644h-67m8
+    detected_date: Oct 13
+    severity: moderate
+    first_patched: 4.1.2.30
+  - name: Divide By Zero in OpenCV.
+    cve_id: CVE-2019-15939
+    cve_url: https://github.com/advisories/GHSA-hxfw-jm98-v4mq
+    detected_date: Oct 13
+    severity: moderate
+    first_patched: 4.1.1.26
+- name: tqdm
+  description: Fast, Extensible Progress Meter
+  package_url: https://pypi.org/project/tqdm
+  version: 4.40.0
+  license: MPL-2.0,MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19846/default_accee5d2b8ed75c2245f13504daf75b1cbc8cc9f.png
+  detection_source_url: https://github.com/seongyeon1/CLEval/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: daehyun-nam
+  last_updated_on: 2020-06-15 09:37:42.000000000 Z
+  vulnerabilities:
+  - name: tqdm CLI arguments injection attack
+    cve_id: CVE-2024-34062
+    cve_url: https://github.com/advisories/GHSA-g7vv-2v7x-gj9p
+    detected_date: May 4
+    severity: low
+    first_patched: 4.66.3
+- name: Shapely
+  description: Geometric objects, predicates, and operations
+  package_url: https://pypi.org/project/Shapely
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/seongyeon1/CLEval/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: daehyun-nam
+  last_updated_on: 2020-06-15 09:37:42.000000000 Z
+- name: six
+  description: Python 2 and 3 compatibility utilities
+  package_url: https://pypi.org/project/six
+  version: 1.12.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19827/default_74a61b43bdb9fc0cba2978316b9976f43545029b.png
+  detection_source_url: https://github.com/seongyeon1/CLEval/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: daehyun-nam
+  last_updated_on: 2020-06-15 09:37:42.000000000 Z
+- name: termcolor
+  description: ANSII Color formatting for output in terminal
+  package_url: https://pypi.org/project/termcolor
+  version: 1.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20014/default_9e735547ab71630330a9e635a78e5cedca9ba560.png
+  detection_source_url: https://github.com/seongyeon1/CLEval/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: daehyun-nam
+  last_updated_on: 2020-06-15 09:37:42.000000000 Z
